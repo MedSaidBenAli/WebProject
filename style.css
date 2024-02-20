@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: white !important;
+  box-shadow: 0 2px 4px rgba(0,0,0,.1); 
+  
+}
+.navbar-brand{
+    font-size: 2rem;
+    font-family: "Protest Riot", sans-serif;
+    color: black;
+}
+.navbar-brand:hover{
+    color: black;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    font-family: "Rubik", sans-serif;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: rgb(132, 97, 21);
+    transition: 0.5s;
+}
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    font-family: "Rubik", sans-serif;
+    border: 2px solid rgb(132, 97, 21);
+}
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background-color: rgb(132, 97, 21);
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+}
+.btn0:hover{
+   background-color: rgb(101, 73, 8);   
+   transition: 0.5s;
+}
+.main { 
+    margin-top: 70px;
+    background: url(./img/handsome-guy-with-fashion-look-wear-modern-clothes-isolated-white-casual-man-face-portrait-banner-wi.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+  }
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.btn1{
+    height: 45px;
+    width: 15%;
+    border: none;
+    outline: none;
+    background-color: rgb(132, 97, 21);
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    padding: 0.5em 1em;
+    border-radius: 60px;
+}
+.btn1:hover{
+    background-color: rgb(101, 73, 8);
+    transition: 0.5s;
+}
+h1{
+    font-weight: 700;
+}
+.card:hover{
+    box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -2px -1px 25px -4px rgb(0,0,0,0.75);
+    -moz-box-shadow: -2px -1px 25px -4px rgb(0,0,0,0.75);
+    transition: 0.5s;
+
+}
+.card-img-custom {
+    height: 300px;
+    width: 100%; 
+    object-fit: cover; 
+  }
+  .carousel-item-active,
+    .carousel-item-next,
+    .carousel-item-prev {
+      display: flex;
+    }
+
+    .carousel-item {
+      height: 100%; 
+    }
+    .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    filter: invert(100%); 
+  }
+
+    .img-fluid {
+      margin: 0 auto;
+      max-height: 200px; 
+    }
+.contact{
+    margin-top: 70px;
+}
+.news{
+
+    background-color: black;
+    color: white;
+}
+.btn2{
+    height:45px;
+    width: 100px;
+    background: white ;
+    margin-left: -10px;
+    border: 2px solid white;
+    font-weight: 600;
+}
+.btn2:hover{
+    background-color: rgb(132, 97, 21); 
+    transition: 0.5s;
+}
+
+.close {
+    border: none; 
+    outline: none; 
+    box-shadow: none; 
+  }
+  
+  .close {
+    background-color: transparent;
+  }
+.news input{
+    height: 45px;
+    width: 55%;
+    border: 2px solid white;
+    outline: none;
+    background: black;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.news::placeholder{
+    color: white;
+
+}
+.news::placeholder{
+    color: white;
+}
+.news p{
+margin:0 ;
+}
+.fab{
+    font-size: 2.5rem;
+    cursor: pointer;
+    padding-right: 5px;
+    transition: color 0.3s;
+}
+  .fab:hover {
+    color: rgb(132, 97, 21); 
+  }
